@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 section{
@@ -14,8 +13,8 @@ section{
 }
 
 .container{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-color: brown;
     display: flex;
     flex-direction: column;
@@ -27,6 +26,8 @@ section{
     flex: 1;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #area{
@@ -58,4 +59,19 @@ section{
     background: none;
     width: 25px;
     border: 0;
+}
+
+.area-button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.area-button button{
+
+    width: 100px;
+    height: auto;
 }

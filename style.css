@@ -16,10 +16,10 @@ section{
 .container{
     width: 50vw;
     height: 50vh;
-    background-color: teal;
-
+    background-color: brown;
     display: flex;
     flex-direction: column;
+    border-radius: 0;
 }
 
 .preview{
@@ -29,9 +29,9 @@ section{
     align-items: center;
 }
 
-.area{
-    width: 50%;
-    height: 50%;
+#area{
+    width: 400px;
+    height: 400px;
     background-color: #fff;
     border: 2px solid #444;
 
@@ -47,7 +47,15 @@ section{
     padding: 10px;
 }
 
-.def input{
+.def input {
 
-    padding: 10px;
+    margin: 10px;
+}
+
+.input-value{
+    color: #fff;
+    font-weight: bold;
+    background: none;
+    width: 25px;
+    border: 0;
 }
